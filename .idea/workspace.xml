@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4d506da-fb01-4181-b292-11ce9e2ef71c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imageShow.py" afterPath="$PROJECT_DIR$/imageShow.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="imageShow.iws" />
@@ -410,7 +409,11 @@
       <created>1403012771759</created>
       <updated>1403012771759</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changed font size">
+      <created>1403013311131</created>
+      <updated>1403013311131</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
