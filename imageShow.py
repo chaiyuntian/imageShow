@@ -27,15 +27,17 @@ class ImageViewer(QMainWindow):
         self.delta = 0.01
         self.started = False
         self.fileFormat='.jpg'
-        self.infoLabel = QLabel("Nothing")
-        self.infoLabel.setGeometry(0, 0, 300, 40)
+        self.infoLabel = QLabel("<font color=black size=200>Press Space To Start</font>"
+)
+        self.infoLabel.adjustSize()
         #self.infoLabel.setFont()
         self.infoLabel.show()
 
         self.datafile='result_'+participantName+'_'+strftime("%Y-%m-%d %H:%M:%S", localtime())
 
     def setInfo(self, txt):
-        self.infoLabel.setText(txt)
+        self.infoLabel.setText("<font color=black size=40>"+txt+"</font>")
+        self.infoLabel.adjustSize()
         self.infoLabel.show()
 
     def setImage(self):
