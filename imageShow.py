@@ -71,6 +71,7 @@ class ImageViewer(QMainWindow):
             if self.sceneIndex > len(self.sceneList)-1:
                 self.imageLabel.close()
                 self.close()
+                self.infoLabel.close()
                 QCoreApplication.quit()
                 return
 
